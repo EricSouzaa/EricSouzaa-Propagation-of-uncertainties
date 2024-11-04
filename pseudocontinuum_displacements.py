@@ -326,13 +326,3 @@ def get_uncertainty_pseudocontinuum(temperatura, deslocamento_num, elemento):
         else:
             return None, None
 
-# Exemplo de uso
-'''
-temperatura = int(input("Digite a temperatura desejada (exemplo: 4000): "))
-deslocamento_num = float(input("Digite o deslocamento de pseudocontínuo como número inteiro (ex: -2, -1, 1, 2): "))
-elemento = input("Digite o elemento ou 'all': ")
-
-resultados, incerteza_propagada = get_uncertainty_pseudocontinuum(temperatura, deslocamento_num, elemento)
-print("Resultados:", resultados)
-print("Incerteza propagada:", incerteza_propagada)
-'''

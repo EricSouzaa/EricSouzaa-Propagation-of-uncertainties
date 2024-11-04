@@ -361,16 +361,3 @@ def get_uncertainty_signal(temperatura, sinal_ruido, elemento):
         else:
             return None, None
 
-'''
-# Exemplo de uso
-temperatura = int(input("Digite a temperatura desejada (exemplo: 4000): "))
-sinal_ruido = int(input("Digite o sinal ruído: "))
-elemento = str(input("Digite o elemento ou all: "))
-resultados, incerteza_total = get_uncertainty_signal(temperatura, sinal_ruido, elemento)
-print("Resultados:", resultados)
-print("Incerteza total:", incerteza_total)
-
-'''
-
-
-
